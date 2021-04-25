@@ -35,7 +35,6 @@ import { HeaderComponent } from './components/header/header.component';
 import { LoginComponent } from './pages/login/login.component';
 import { ChiffreCacheComponent } from './components/chiffre-cache/chiffre-cache.component';
 import { DetailsCvComponent } from './cv/details-cv/details-cv.component';
-import { CouleurComponent } from './couleur/couleur.component';
 
 
 @NgModule({
@@ -67,8 +66,7 @@ import { CouleurComponent } from './couleur/couleur.component';
     HeaderComponent,
     LoginComponent,
     ChiffreCacheComponent,
-    DetailsCvComponent,
-    CouleurComponent
+    DetailsCvComponent
   ],
   imports: [
     BrowserModule,
